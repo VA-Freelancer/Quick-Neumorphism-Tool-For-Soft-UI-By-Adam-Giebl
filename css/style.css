@@ -1,0 +1,32 @@
+:root{
+	box-sizing: border-box;
+}
+::before,
+::after{
+	box-sizing: inherit;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.box{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 42px;
+	background: linear-gradient(145deg, #0089cd, #0073ad);
+	box-shadow: 17px 17px 40px #00689c,
+				-17px -17px 40px #0098e4;
+}
